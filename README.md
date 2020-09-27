@@ -1,6 +1,10 @@
 # education-web-site
 Website as example of how it built
 
+###Get design from here
+http://themes.evollethemes.com/broden/
+
+
 ## Available Scripts
 
 In the project directory, you can run:
