@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { PageHome, ContactsPage } from './pages'
+import { PageHome, ContactsPage, PageNotFound } from './pages'
 import { Navigation } from './components'
 
 function App() {
@@ -14,6 +14,9 @@ function App() {
           </Route>
           <Route path="/contacts" exact>
             <ContactsPage />
+          </Route>
+          <Route>
+            <PageNotFound />
           </Route>
         </Switch>
       </Router>
